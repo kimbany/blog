@@ -8,7 +8,7 @@ display  속성
  ; block : 크기o, 자동으로 아래로 떨어짐  
  ; inline : 크기x, 옆으로 나열   
  ; inline-block : 크기o , 옆으로 나열   
- ; flex : 
+ ; flex : 본인은 block , 자식은 inline , 크기o 
 
 ```markup
 <ul class="float">
@@ -17,10 +17,16 @@ display  속성
   <li></li>
 </ul>
 
- <ul class="inlineblock">
+<ul class="inlineblock">
   <li>
     <div>test</div>
   </li>
+  <li></li>
+  <li></li>
+</ul>
+
+<ul class="flex">
+  <li></li>
   <li></li>
   <li></li>
 </ul>
