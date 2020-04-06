@@ -23,9 +23,9 @@ display  속성
     background-color: #fa0; 
     border: 1px solid #000; 
     box-sizing : border-box; 
-    vertical-align: top;  
-    font-size: 16px; 
-    line-height : 1.5;
+    vertical-align: top;  /* 위로정 */
+    font-size: 16px; /* 폰크사이즈 원래데로 돌리 */
+    line-height : 1.5; /* 행간 원래데로 돌리 */
 }
 ```
 
