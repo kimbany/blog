@@ -27,7 +27,7 @@ display  속성
 ```
 
 ```css
-// 리셋 CSS
+/* 리셋 CSS */
 *{
     padding: 0; 
     margin: 0;
@@ -38,6 +38,7 @@ ul {
     list-style: none;
 }
 
+/* 플롯 코드 방식 */
 .float { 
     padding: 20px; 
     height: 100px; 
@@ -52,6 +53,7 @@ ul {
     box-sizing : border-box; 
 }
 
+/* 인라인블록 방식 */
 .inlineblock { 
     padding: 20px; 
     width: 600px; 
