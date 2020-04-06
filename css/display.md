@@ -28,5 +28,19 @@ display  속성
     font-size: 16px; /* 폰크사이즈 원래데로 돌리 */
     line-height : 1.5; /* 행간 원래데로 돌리 */
 }
+
+/* 플렉 방식 */
+.flex {
+  padding: 20px;
+  height: 100px;
+  display: flex; /* 부모에게 flex */
+}
+.flex li {
+  height: 100px;
+  width: 33.333%;
+  background-color: #fa0;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
 ```
 
